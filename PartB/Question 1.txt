@@ -1,0 +1,50 @@
+Question 1: Sourcing Methods
+The goal here is to find Federer companies at scale — not one at a time through Google. Every method below is chosen because it signals something specific about the ICP: technical product, promoter-driven, growing, differentiated.
+
+1. DSIR-Recognized R&D Units List
+
+The Department of Scientific and Industrial Research publishes a list of companies with recognized in-house R&D units. This list is downloadable from dsir.gov.in and has 3,000+ companies nationally.
+Why it works for this ICP: DSIR recognition is not easy to get. A company has to demonstrate dedicated R&D infrastructure, qualified personnel, and documented research activity. Any company on this list has already signaled C3 (differentiation — R&D investment) and C4 (technical decision-maker — someone set up and runs this unit). It is one of the most direct pre-filters available for free.
+Limitation: Skews toward older, established companies. Startups and recent scale-ups may not have applied yet. Also requires cross-referencing with city and segment data since the list is not pre-filtered by geography.
+
+2. USFDA / EU-GMP / WHO-GMP Approved Facility Lists
+
+The US FDA publishes a searchable database of approved manufacturing facilities globally (accessible at fda.gov). EU-GMP and WHO prequalification lists are also public.
+Why it works: Regulatory approval directly evidences E1 (you cannot get FDA approval without a real manufacturing facility), C3 (commodity manufacturers don't pursue international regulatory approval), and C5 (export tailwind — FDA-approved means selling to the US market). It's one of the few free signals that simultaneously confirms manufacturing, differentiation, and growth orientation.
+Limitation: Heavy bias toward pharma and chemicals. Does not cover defence, textiles, auto components, or agri-inputs well. Also, large companies like Sun Pharma and Cipla dominate the list — need to filter them out by revenue.
+
+3. BSE SME / NSE Emerge Listed Companies
+
+BSE SME and NSE Emerge are exchanges for smaller listed companies. Both publish sector-wise company lists with public financials, annual reports, and director details.
+Why it works: Listed companies have public revenue data (revenue band immediately confirmable), annual reports with leadership bios and facility details, and MCA filings that show ownership structure. Scoring C6 (growth), C7 (systems — BSE listing mandates quarterly reporting), and C8 (succession — independent directors are mandatory) becomes much faster for these companies.
+Limitation: Only captures listed companies. The majority of the Federer ICP — private MSMEs — won't appear here. Useful for building a reliable high-confidence subset but cannot be the only source.
+
+4. Trade Expo Exhibitor Directories
+
+Industry-specific trade expos publish exhibitor directories that are often available online. Relevant expos: CPHI India (pharma/chem), BioAsia (biotech, Hyderabad), Aero India (defence), IMTEX (machine tools), Agri Intex (agri-inputs), ELECRAMA (electronics), ITME (textile machinery).
+Why it works: Companies that pay Rs.2–10 lakh for an expo booth are signaling C6 (active growth). They are investing in business development, not sitting still. Expo segment mapping also aligns directly with our industry baskets. Exhibitor directories often include website, product category, and city — giving a ready-made filtered starting universe.
+Limitation: Biased toward companies with marketing budgets. Bootstrapped MSMEs with strong technical depth but low visibility may not exhibit. Past expo directories (from 2022–2024) may have stale contact details.
+
+5. Industry Association Member Directories
+
+Several industry associations publish member directories either publicly or on registration. Key ones: IDMA (Indian Drug Manufacturers Association), ACMA (auto components), ELCINA (electronics), IVAMA (valves), Seed Association of India, CODISSIA (Coimbatore industries), GCCI (Gujarat Chamber of Commerce).
+Why it works: Association membership is a weak but real signal of active operation in the segment. Directories often include company size, product range, city, and contact info — a faster starting point than Google.
+Limitation: Overlaps heavily with expo lists and DSIR. Heavy deduplication required. Some directories require membership or a fee to access. Data quality varies — some associations haven't updated their directories in years.
+
+6. LinkedIn Sales Navigator — Inverted Search
+
+Instead of finding companies and then checking if the decision-maker is technical, invert the search: find technical founders/MDs in manufacturing companies and then check their company. Sales Navigator filters allow searching by industry, company headcount, geography, and seniority level simultaneously.
+Why it works: This is the most direct way to find C4 (decision-maker quality). Search for founders or MDs in manufacturing sub-sectors with engineering or science backgrounds in target cities. Each profile leads to a company worth investigating.
+Limitation: LinkedIn data is self-reported and often wrong for Indian MSMEs — headcount, industry classification, and even job titles are frequently inaccurate. Also requires a Sales Navigator licence.
+
+7. MCA / Tofler NIC Code Filtering
+
+The Ministry of Corporate Affairs maintains data on all registered Indian companies including NIC (National Industrial Classification) codes, director names, paid-up capital, and registered address. Third-party tools like Tofler, Zauba Corp, and Antigravity provide easier access to this data.
+Why it works: NIC codes let you filter to specific manufacturing sub-segments at scale. Director names give decision-maker leads. Paid-up capital gives a rough company size proxy. This is the most comprehensive raw universe available — every registered Indian company is in here.
+Limitation: Extremely noisy. NIC codes are self-reported and frequently wrong. Requires heavy post-filtering. Does not include website URLs, so enrichment is needed. Many entries are dormant or shell companies.
+
+8. State Industrial Development Corporation Databases
+
+State bodies like TSIIC (Telangana), MIDC (Maharashtra), GIDC (Gujarat), SIPCOT (Tamil Nadu), and KIADB (Karnataka) maintain lists of companies in their industrial estates and SEZs. Some publish these online; others require an RTI request.
+Why it works: Companies in formal industrial estates are more likely to be genuine manufacturers with dedicated facilities. These lists include company name, sector, plot size, and sometimes investment details — a signal of real infrastructure.
+Limitation: Data availability varies by state. Some databases are updated infrequently. Requires manual effort to extract and enrich. Better as a supplementary source than a primary one.
